@@ -1,0 +1,33 @@
+﻿<Page
+    x:Class="App5.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App5"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Height="775.5" Width="475" AllowDrop="False" MaxWidth="424" MaxHeight="696" MinWidth="424" MinHeight="694" AutomationProperties.SizeOfSet="0">
+
+    <Grid Background="{ThemeResource SystemControlAccentDark1AcrylicWindowAccentDark1Brush}" Margin="-83,4,-54,-103" HorizontalAlignment="Left" Width="561">
+        <Button Content="（" HorizontalAlignment="Stretch" Margin="188,137,281,561" VerticalAlignment="Stretch" FontSize="24"  Style="{StaticResource ButtonRevealStyle}" Foreground="#FFF7F5F5" Click="Button_Click_17"/>
+        <Button Content="）" HorizontalAlignment="Stretch" Margin="288,137,182,561" VerticalAlignment="Stretch" FontSize="24" Style="{StaticResource ButtonRevealStyle}" Foreground="#FFF7F5F5" Click="Button_Click_16"/>
+        <Button Content="+" HorizontalAlignment="Stretch" Margin="386,137,84,561" VerticalAlignment="Stretch" FontSize="24" Style="{StaticResource ButtonRevealStyle}" Foreground="#FFF7F5F5" Click="Button_Click_12"/>
+        <Button Content="1" HorizontalAlignment="Stretch" Margin="90,241,380,457" VerticalAlignment="Stretch" FontSize="24" Style="{StaticResource ButtonRevealStyle}" Foreground="#FFF7F5F5" Click="Button_Click_1"/>
+        <Button Content="2" HorizontalAlignment="Stretch" Margin="189,241,281,457" VerticalAlignment="Stretch" FontSize="24" Style="{StaticResource ButtonRevealStyle}" Foreground="#FFF7F5F5" Click="Button_Click_2"/>
+        <Button Content="3" HorizontalAlignment="Stretch" Margin="288,241,182,457" VerticalAlignment="Stretch" FontSize="24" Style="{StaticResource ButtonRevealStyle}" Foreground="#FFF7F5F5" Click="Button_Click_3"/>
+        <Button Content="-" HorizontalAlignment="Stretch" Margin="386,243,84,455" VerticalAlignment="Stretch" FontSize="24" Style="{StaticResource ButtonRevealStyle}" Foreground="#FFF7F5F5" Click="Button_Click_15"/>
+        <Button Content="4" HorizontalAlignment="Stretch" Margin="90,345,380,353" VerticalAlignment="Stretch" FontSize="24" Style="{StaticResource ButtonRevealStyle}" Foreground="#FFF7F5F5" Click="Button_Click_4"/>
+        <Button Content="5" HorizontalAlignment="Stretch" Margin="189,345,281,353" VerticalAlignment="Stretch" FontSize="24" Style="{StaticResource ButtonRevealStyle}" Foreground="#FFF7F5F5" Click="Button_Click_5"/>
+        <Button Content="6" HorizontalAlignment="Stretch" Margin="288,345,182,353" VerticalAlignment="Stretch" FontSize="24" RenderTransformOrigin="0.479,1.157" Style="{StaticResource ButtonRevealStyle}" Foreground="#FFF7F5F5" Click="Button_Click_6"/>
+        <Button Content="×" HorizontalAlignment="Stretch" Margin="386,345,84,353" VerticalAlignment="Stretch" FontSize="24" Style="{StaticResource ButtonRevealStyle}" Foreground="#FFF7F5F5" Click="Button_Click_13"/>
+        <Button Content="7" HorizontalAlignment="Stretch" Margin="90,451,380,247" VerticalAlignment="Stretch" FontSize="24" Style="{StaticResource ButtonRevealStyle}" Foreground="#FFF7F5F5" Click="Button_Click_7"/>
+        <Button Content="8" HorizontalAlignment="Stretch" Margin="188,451,282,247" VerticalAlignment="Stretch" FontSize="24" Style="{StaticResource ButtonRevealStyle}" Foreground="#FFF7F5F5" Click="Button_Click_8"/>
+        <Button Content="9" HorizontalAlignment="Stretch" Margin="288,451,182,247" VerticalAlignment="Stretch" FontSize="24" Style="{StaticResource ButtonRevealStyle}" Foreground="#FFF7F5F5" Click="Button_Click_9"/>
+        <Button Content="÷" HorizontalAlignment="Stretch" Margin="386,451,84,247" VerticalAlignment="Stretch" FontSize="24" Style="{StaticResource ButtonRevealStyle}" Foreground="#FFF7F5F5" Click="Button_Click_14"/>
+        <Button Content="." HorizontalAlignment="Stretch" Margin="90,555,380,143" VerticalAlignment="Stretch" FontSize="24" Style="{StaticResource ButtonRevealStyle}" Foreground="#FFF7F5F5" Click="Button_Click_11"/>
+        <Button Content="0" HorizontalAlignment="Stretch" Margin="188,555,282,143" VerticalAlignment="Stretch" FontSize="24" Style="{StaticResource ButtonRevealStyle}" Foreground="#FFF7F5F5" Click="Button_Click_10"/>
+        <Button Content="=" HorizontalAlignment="Stretch" Margin="288,555,84,143" VerticalAlignment="Stretch" RenderTransformOrigin="0.529,-0.193" FontSize="24" Style="{StaticResource ButtonRevealStyle}" Foreground="#FFF7F5F5" Click="Button_Click_18"/>
+        <Button Content="AC" HorizontalAlignment="Stretch" Margin="90,137,380,561" VerticalAlignment="Stretch" FontSize="24" Style="{StaticResource ButtonRevealStyle}" FontFamily="Arial Black" Foreground="#FFF7F5F5" Click="Button_Click"/>
+        <TextBlock Name="screen" Text="0" TextWrapping="Wrap" FontSize="72" TextAlignment="Right" Margin="90,4,87,645" Foreground="#FFF7F5F5"/>
+
+    </Grid>
+</Page>
